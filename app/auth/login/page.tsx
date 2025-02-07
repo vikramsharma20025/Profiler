@@ -1,15 +1,16 @@
 'use client';
 
-import { SignInButton } from "@/components/shared/AuthButtons/sign-in-button";
+import { SignInGithub } from "@/components/shared/AuthButtons/sign-in-github";
+import { SignInGoogle } from "@/components/shared/AuthButtons/sign-in-google";
+
 
 export default function Login(){
     return (
         <div>
             {" "}
             <p>You are not signed in.</p>{" "}
-            {/* <button> */}
-                <SignInButton />
-            {/* </button> */}
+            <SignInGithub />
+            <SignInGoogle />
         </div>
     )
 }
