@@ -1,11 +1,10 @@
-"use client";
 import { login } from "@/lib/actions/auth";
 
 export const SignInGithub = () => {
-    return (<>
+    return (
+    <>
         <button onClick={() => login({provide:"github"})}>
             Sign In With Github
         </button>
-        
     </>);
 };

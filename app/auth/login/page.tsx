@@ -12,5 +12,5 @@ export default function Login(){
             <SignInGithub />
             <SignInGoogle />
         </div>
-    )
-}
+    );
+};
